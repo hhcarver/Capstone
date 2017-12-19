@@ -1,0 +1,43 @@
+html {
+  font-size: 18px;
+  font-family: Verdana;
+}
+
+/*HEADER*/
+header {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+
+}
+#logo {
+  margin-left: 24px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+#logo img {
+  height: 32px;
+}
+#logo p {
+  font-size: 20px;
+}
+.emphasized {
+  font-weight: 700;
+  color: #404040;
+}
+.de-emphasized {
+  font-weight: 100;
+  color: #a6a6a6;
+}
+header nav {
+  color: #404040;
+  font-weight: 100;
+  margin-right: 24px;
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+header nav p {
+  margin-left: 16px;
+}
