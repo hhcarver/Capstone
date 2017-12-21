@@ -83,14 +83,53 @@ header nav p {
 
 /*CONTENT SECTION-1*/
 #section-1 {
-
+  padding-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
 }
-#section-1 img {
+#main img {
   width: 60%;
   height: auto;
   padding: 32px 24px;
 }
-#section-1 .column-content {
+#main .column-content {
   width: 60%;
   margin-left: 24px;
+}
+h2 {
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 24px;
+  line-height: 2.5rem;
+}
+p {
+  font-size: 14px;
+  font-weight: 100;
+  /*for some reason it's not showing up as light.*/
+  line-height: 1.1rem
+}
+#quote {
+  padding-bottom: 24px;
+}
+.credit {
+  font-size: 11px;
+}
+#other-info {
+  width: 40%;
+  padding-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#thumbnail-1 {
+  background-image: url("../images/information-orientation.jpg");
+  width: 35%;
+  height: auto;
+}
+.text {
+  width: 65%;
 }
