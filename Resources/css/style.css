@@ -39,6 +39,7 @@ header nav {
 header nav p {
   margin-left: 16px;
   font-weight: 100;
+  /*Need to be bigger*/
 }
 
 /*BANNER*/
@@ -109,7 +110,7 @@ h2 {
 p {
   font-size: 13px;
   font-weight: 100;
-  /*for some reason it's not showing up as light.*/
+  /*for some reason it's not showing up as light. Change font color!*/
   line-height: 1.1rem
 }
 #quote {
@@ -162,6 +163,7 @@ a {
 /*CONTENT SECTION-2*/
 #section-2 {
   background-color: #E8E8E8;
+  text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -173,11 +175,34 @@ a {
   flex-direction: column;
 }
 .row {
+  margin-bottom: 32px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .subject {
   background-color: white;
+  text-align: left;
+  width: 30%;
+  padding-bottom: 24px;
   display: flex;
   flex-direction: column;
+}
+.subject img {
+  width: 100%;
+  height: auto;
+  padding-bottom: 16px;
+}
+#subject-1 {
+  margin-right: 32px;
+}
+#subject-2 {
+  margin-right: 32px;
+}
+.subject h5 {
+  padding-left: 16px;
+}
+.subject p {
+  padding-top: 8px;
+  padding-left: 16px;
 }
