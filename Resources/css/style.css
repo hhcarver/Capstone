@@ -83,7 +83,7 @@ header nav p {
 
 /*CONTENT SECTION-1*/
 #section-1 {
-  padding-bottom: 32px;
+
   display: flex;
 }
 #main {
@@ -157,4 +157,27 @@ a {
 }
 #guest {
   background-color: #DCDCDC;
+}
+
+/*CONTENT SECTION-2*/
+#section-2 {
+  background-color: #E8E8E8;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#classes {
+  padding-left: 72px;
+  padding-right: 72px;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.subject {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
 }
