@@ -87,13 +87,16 @@ header nav p {
   display: flex;
   justify-content: space-between;
 }
-#main img {
+#main {
   width: 60%;
+}
+#main img {
+  width: 100%;
   height: auto;
   padding: 32px 24px;
 }
 #main .column-content {
-  width: 60%;
+  width: 100%;
   margin-left: 24px;
 }
 h2 {
@@ -125,8 +128,7 @@ p {
   flex-direction: row;
   justify-content: flex-start;
 }
-#thumbnail-1 {
-  background-image: url("../images/information-orientation.jpg");
+.thumbnail {
   width: 35%;
   height: auto;
 }
