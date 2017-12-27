@@ -103,10 +103,11 @@ h2 {
   font-size: 25px;
   font-weight: 600;
   padding-bottom: 24px;
+  padding-top: 32px;
   line-height: 2.5rem;
 }
 p {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 100;
   /*for some reason it's not showing up as light.*/
   line-height: 1.1rem
@@ -119,14 +120,17 @@ p {
 }
 
 #other-info {
-  width: 30%;
+  width: 40%;
   padding-top: 16px;
+  border-left: 1px solid #DCDCDC;
   display: flex;
   flex-direction: column;
 }
 .box {
+  border-bottom: 3px solid #DCDCDC;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .thumbnail {
   width: 35%;
@@ -138,3 +142,19 @@ p {
 }
 .text {
   width: 65%;
+}
+h5 {
+  font-size: 17px;
+  line-height: 1.5rem;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+a {
+  color: #80bfff;
+  text-decoration: none;
+  font-size: 13px;
+  padding-top: 8px;
+}
+#guest {
+  background-color: #DCDCDC;
+}
