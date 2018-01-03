@@ -219,7 +219,10 @@ a {
 }
 #video {
   display: block;
-  width: 60%;
+  width: 100%;
+}
+video {
+width: 100%;
 }
 #fisma {
   background-color: #DCDCDC;
