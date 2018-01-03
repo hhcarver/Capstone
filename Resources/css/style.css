@@ -217,6 +217,10 @@ a {
 #thesis {
   display: flex;
 }
+#video {
+  display: block;
+  width: 100%;
+}
 #fisma {
   background-color: #DCDCDC;
 }
