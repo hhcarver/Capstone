@@ -90,11 +90,14 @@ header nav p {
 #main {
   /*Alignment still isn't quite right.*/
   width: 60%;
-  padding: 32px 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 32px;
 }
 #main img {
   width: 100%;
   height: auto;
+  padding-top: 32px;
 
 }
 #main .column-content {
@@ -224,6 +227,28 @@ a {
 video {
 width: 100%;
 }
+#thesis .column-content h5 {
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+#thesis .column-content p {
+  padding-bottom: 32px;
+}
 #fisma {
   background-color: #DCDCDC;
+}
+
+/*COPYRIGHT SECTION*/
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer p {
+  font-size: 12px;
+}
+#terms {
+  display: flex;
+}
+#terms p {
+  padding-right: 12px;
 }
