@@ -88,6 +88,7 @@ header nav p {
   display: flex;
 }
 #main {
+  /*Alignment still isn't quite right.*/
   width: 60%;
   padding: 32px 24px;
 }
