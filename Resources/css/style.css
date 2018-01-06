@@ -41,13 +41,9 @@ header nav p {
   font-weight: 100;
   font-size: 15px;
 }
-@media only screen and (min-width: 600px) {
-  #mobile-header {
+#mobile-header {
     display: none;
-  }
 }
-/*^^^This isn't working. I can still see the mobile nav bar*/
-
 @media only screen and (max-width: 600px) {
   header {
     display: none;
