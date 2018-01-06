@@ -42,19 +42,19 @@ header nav p {
   font-size: 15px;
 }
 #mobile-header {
-    display: none;
+  height: 64px;
+  margin-left: 24px;
+  margin-right: 24px;
+  display: none;
+  justify-content: space-between;
 }
 @media only screen and (max-width: 600px) {
   header {
     display: none;
   }
-}
-#mobile-header {
-  height: 64px;
-  margin-left: 24px;
-  margin-right: 24px;
-  display: flex;
-  justify-content: space-between;
+  #mobile-header {
+    display: flex;
+  }
 }
 
 /*BANNER*/
@@ -112,18 +112,25 @@ header nav p {
   #banner .column-content {
     width: 100%;
     display: flex;
+    justify-content: center;
     padding-left: 16px;
     padding-top: 32px;
   }
   #banner h1 {
     padding-bottom: 32px;
+    display: flex;
+    justify-content: center;
   }
   #banner h4 {
     padding-bottom: 24px;
+    display: flex;
+    justify-content: center;
   }
   #banner button {
     margin-bottom: 32px;
     background-color: #989898;
+    display: flex;
+    justify-content: center;
   }
   #banner button p {
     font-weight: bold;
@@ -208,18 +215,37 @@ a {
 #guest {
   background-color: #DCDCDC;
 }
-
+#mobile-other-info {
+  display: none;
+}
 @media only screen and (max-width: 600px) {
   #main {
     display: none;
   }
   #other-info {
-    width: 100%;
+    display: none;
   }
-  .box {
+  #mobile-other-info {
     display: block;
   }
-/*Need to put in other images*/
+  .mobile-thumbnail {
+    width: 100%;
+    display: flex;
+  }
+  .mobile-thumbnail img {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 16px 16px;
+  }
+  .mobile-box .text {
+    padding-left: 32px;
+    padding-bottom: 64px;
+  }
+  .mobile-box .text p {
+    padding-bottom: 12px;
+  }
 }
 
 /*CONTENT SECTION-2*/
@@ -268,6 +294,33 @@ a {
   padding-top: 8px;
   padding-left: 16px;
 }
+#mobile-classes {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  #section-2 {
+    background-color: white;
+    border-top: 0.5px solid #DCDCDC;
+    border-bottom: 0.5px solid #DCDCDC;
+    padding-bottom: 32px;
+  }
+  #classes {
+    display: none;
+  }
+  #mobile-classes {
+    display: block;
+    background-color: #DCDCDC;
+    margin: 4px 16px;
+  }
+  #mobile-classes h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 16px;
+  }
+}
 
 /*CONTENT SECTION-3*/
 #section-3 h2 {
@@ -295,6 +348,23 @@ width: 100%;
 #fisma {
   background-color: #DCDCDC;
 }
+@media only screen and (max-width: 600px) {
+  #thesis #main {
+    display: block;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 24px;
+  }
+  #thesis #main .column-content {
+    display: none;
+  }
+  #more-thesis {
+    display: none;
+  }
+  video {
+    width: 100%;
+  }
+}
 
 /*COPYRIGHT SECTION*/
 footer {
@@ -309,4 +379,12 @@ footer p {
 }
 #terms p {
   padding-right: 12px;
+}
+@media only screen and (max-width: 600px) {
+  #terms {
+    display: none;
+  }
+  footer {
+    margin: 16px 16px;
+  }
 }
