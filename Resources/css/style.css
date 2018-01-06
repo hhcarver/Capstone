@@ -39,7 +39,26 @@ header nav {
 header nav p {
   margin-left: 16px;
   font-weight: 100;
-  /*Need to be bigger*/
+  font-size: 15px;
+}
+@media only screen and (min-width: 600px) {
+  #mobile-header {
+    display: none;
+  }
+}
+/*^^^This isn't working. I can still see the mobile nav bar*/
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
+}
+#mobile-header {
+  height: 64px;
+  margin-left: 24px;
+  margin-right: 24px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*BANNER*/
@@ -81,6 +100,36 @@ header nav p {
   padding-top: 8px;
   padding-bottom: 8px;
   font-size: 16px;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #banner {
+    display: block;
+  }
+  #banner img {
+    width: 100%;
+    padding: 1px;
+  }
+  #banner .column-content {
+    width: 100%;
+    display: flex;
+    padding-left: 16px;
+    padding-top: 32px;
+  }
+  #banner h1 {
+    padding-bottom: 32px;
+  }
+  #banner h4 {
+    padding-bottom: 24px;
+  }
+  #banner button {
+    margin-bottom: 32px;
+    background-color: #989898;
+  }
+  #banner button p {
+    font-weight: bold;
+  }
 }
 
 /*CONTENT SECTION-1*/
@@ -88,7 +137,6 @@ header nav p {
   display: flex;
 }
 #main {
-  /*Alignment still isn't quite right.*/
   width: 60%;
   padding-right: 24px;
   padding-left: 24px;
@@ -113,8 +161,7 @@ h2 {
 }
 p {
   font-size: 13px;
-  font-weight: 100;
-  /*for some reason it's not showing up as light. Change font color!*/
+  font-weight:lighter;
   line-height: 1.1rem
 }
 #quote {
@@ -125,20 +172,21 @@ p {
 }
 
 #other-info {
-  width: 40%;
+  width: 35%;
   padding-top: 16px;
-  border-left: 1px solid #DCDCDC;
+  border-left: 0.5px solid #DCDCDC;
   display: flex;
   flex-direction: column;
 }
 .box {
-  border-bottom: 3px solid #DCDCDC;
+  width: 100%;
+  border-bottom: 1px solid #DCDCDC;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 .thumbnail {
-  width: 35%;
+  width: 65%;
   padding: 16px;
 }
 .thumbnail img {
